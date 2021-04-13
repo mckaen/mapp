@@ -7,11 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* mappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* mappTests.m */; };
+		00E356F31AD99517003FC87E /* mytoys.mobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* mytoys.mobileTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		ECF1A216C19E436FA915BBAF /* mt_fav.png in Resources */ = {isa = PBXBuildFile; fileRef = 158B806E1642436B9004FA18 /* mt_fav.png */; };
+		C1A7D9C053684B019A8F3395 /* mtlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A7528951784B9FB52DDC77 /* mtlogo.png */; };
+		7F1C30726C044F1684742007 /* vplogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EBAB1D4BBB4161A5797835 /* vplogo.png */; };
+		625FBB1FE5094E77ABCA410A /* MuseoSansCyrl-100.woff in Resources */ = {isa = PBXBuildFile; fileRef = E886634CF3AA421DBAE065FF /* MuseoSansCyrl-100.woff */; };
+		37125944E421471181479D99 /* MuseoSansCyrl-100.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = FD0F530F70FD4B84B92FEE11 /* MuseoSansCyrl-100.woff2 */; };
+		876728EF6718459B90EAF49D /* MuseoSansCyrl-300.woff in Resources */ = {isa = PBXBuildFile; fileRef = 0177AD3AA9CA4D7897CA7248 /* MuseoSansCyrl-300.woff */; };
+		8AFB778CFF7148FF926DFA4B /* MuseoSansCyrl-300.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 560525E4510149ABBF2257C4 /* MuseoSansCyrl-300.woff2 */; };
+		BDD75E21CFF347D2B38CECED /* MuseoSansCyrl-500.woff in Resources */ = {isa = PBXBuildFile; fileRef = 7112BD839F38499B9BB3A099 /* MuseoSansCyrl-500.woff */; };
+		58630F79B5414E828DD52416 /* MuseoSansCyrl-500.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A56E8E8AC86048C9B432858C /* MuseoSansCyrl-500.woff2 */; };
+		566E757CF1E44D9E8E9355B9 /* MuseoSansCyrl-700.woff in Resources */ = {isa = PBXBuildFile; fileRef = C73AC30CBBFB429089270CF3 /* MuseoSansCyrl-700.woff */; };
+		3208C156C01445948DBB6E74 /* MuseoSansCyrl-700.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = ED7E82693CF2471EB326412D /* MuseoSansCyrl-700.woff2 */; };
+		D71DACA019F049E3B76AA084 /* MuseoSansCyrl-900.woff in Resources */ = {isa = PBXBuildFile; fileRef = 19A234F0F5B44EB89C44480A /* MuseoSansCyrl-900.woff */; };
+		531C46B011A645E187F5F064 /* MuseoSansCyrl-900.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD842337C234B7D8B75C39E /* MuseoSansCyrl-900.woff2 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,22 +33,35 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = mapp;
+			remoteInfo = mytoys.mobile;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* mappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* mytoys.mobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mytoys.mobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* mappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mappTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* mapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = mapp/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = mapp/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = mapp/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = mapp/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = mapp/main.m; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = mapp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* mytoys.mobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mytoys.mobileTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* mytoys.mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mytoys.mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = mytoys.mobile/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = mytoys.mobile/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = mytoys.mobile/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = mytoys.mobile/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = mytoys.mobile/main.m; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = mytoys.mobile/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		158B806E1642436B9004FA18 /* mt_fav.png */ = {isa = PBXFileReference; name = "mt_fav.png"; path = "../assets/mt_fav.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A4A7528951784B9FB52DDC77 /* mtlogo.png */ = {isa = PBXFileReference; name = "mtlogo.png"; path = "../assets/mtlogo.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		04EBAB1D4BBB4161A5797835 /* vplogo.png */ = {isa = PBXFileReference; name = "vplogo.png"; path = "../assets/vplogo.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E886634CF3AA421DBAE065FF /* MuseoSansCyrl-100.woff */ = {isa = PBXFileReference; name = "MuseoSansCyrl-100.woff"; path = "../assets/font/MuseoSansCyrl-100.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FD0F530F70FD4B84B92FEE11 /* MuseoSansCyrl-100.woff2 */ = {isa = PBXFileReference; name = "MuseoSansCyrl-100.woff2"; path = "../assets/font/MuseoSansCyrl-100.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0177AD3AA9CA4D7897CA7248 /* MuseoSansCyrl-300.woff */ = {isa = PBXFileReference; name = "MuseoSansCyrl-300.woff"; path = "../assets/font/MuseoSansCyrl-300.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		560525E4510149ABBF2257C4 /* MuseoSansCyrl-300.woff2 */ = {isa = PBXFileReference; name = "MuseoSansCyrl-300.woff2"; path = "../assets/font/MuseoSansCyrl-300.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7112BD839F38499B9BB3A099 /* MuseoSansCyrl-500.woff */ = {isa = PBXFileReference; name = "MuseoSansCyrl-500.woff"; path = "../assets/font/MuseoSansCyrl-500.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A56E8E8AC86048C9B432858C /* MuseoSansCyrl-500.woff2 */ = {isa = PBXFileReference; name = "MuseoSansCyrl-500.woff2"; path = "../assets/font/MuseoSansCyrl-500.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C73AC30CBBFB429089270CF3 /* MuseoSansCyrl-700.woff */ = {isa = PBXFileReference; name = "MuseoSansCyrl-700.woff"; path = "../assets/font/MuseoSansCyrl-700.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ED7E82693CF2471EB326412D /* MuseoSansCyrl-700.woff2 */ = {isa = PBXFileReference; name = "MuseoSansCyrl-700.woff2"; path = "../assets/font/MuseoSansCyrl-700.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		19A234F0F5B44EB89C44480A /* MuseoSansCyrl-900.woff */ = {isa = PBXFileReference; name = "MuseoSansCyrl-900.woff"; path = "../assets/font/MuseoSansCyrl-900.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4DD842337C234B7D8B75C39E /* MuseoSansCyrl-900.woff2 */ = {isa = PBXFileReference; name = "MuseoSansCyrl-900.woff2"; path = "../assets/font/MuseoSansCyrl-900.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +82,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* mappTests */ = {
+		00E356EF1AD99517003FC87E /* mytoys.mobileTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* mappTests.m */,
+				00E356F21AD99517003FC87E /* mytoys.mobileTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = mappTests;
+			path = mytoys.mobileTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -73,7 +99,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* mapp */ = {
+		13B07FAE1A68108700A75B9A /* mytoys.mobile */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -83,7 +109,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = mapp;
+			name = mytoys.mobile;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -104,11 +130,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* mapp */,
+				13B07FAE1A68108700A75B9A /* mytoys.mobile */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* mappTests */,
+				00E356EF1AD99517003FC87E /* mytoys.mobileTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				C16F0D9FD7E94B53A07E0C6E /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -118,18 +145,39 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* mapp.app */,
-				00E356EE1AD99517003FC87E /* mappTests.xctest */,
+				13B07F961A680F5B00A75B9A /* mytoys.mobile.app */,
+				00E356EE1AD99517003FC87E /* mytoys.mobileTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C16F0D9FD7E94B53A07E0C6E /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				158B806E1642436B9004FA18 /* mt_fav.png */,
+				A4A7528951784B9FB52DDC77 /* mtlogo.png */,
+				04EBAB1D4BBB4161A5797835 /* vplogo.png */,
+				E886634CF3AA421DBAE065FF /* MuseoSansCyrl-100.woff */,
+				FD0F530F70FD4B84B92FEE11 /* MuseoSansCyrl-100.woff2 */,
+				0177AD3AA9CA4D7897CA7248 /* MuseoSansCyrl-300.woff */,
+				560525E4510149ABBF2257C4 /* MuseoSansCyrl-300.woff2 */,
+				7112BD839F38499B9BB3A099 /* MuseoSansCyrl-500.woff */,
+				A56E8E8AC86048C9B432858C /* MuseoSansCyrl-500.woff2 */,
+				C73AC30CBBFB429089270CF3 /* MuseoSansCyrl-700.woff */,
+				ED7E82693CF2471EB326412D /* MuseoSansCyrl-700.woff2 */,
+				19A234F0F5B44EB89C44480A /* MuseoSansCyrl-900.woff */,
+				4DD842337C234B7D8B75C39E /* MuseoSansCyrl-900.woff2 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* mappTests */ = {
+		00E356ED1AD99517003FC87E /* mytoys.mobileTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "mappTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "mytoys.mobileTests" */;
 			buildPhases = (
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
@@ -140,14 +188,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = mappTests;
-			productName = mappTests;
-			productReference = 00E356EE1AD99517003FC87E /* mappTests.xctest */;
+			name = mytoys.mobileTests;
+			productName = mytoys.mobileTests;
+			productReference = 00E356EE1AD99517003FC87E /* mytoys.mobileTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* mapp */ = {
+		13B07F861A680F5B00A75B9A /* mytoys.mobile */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "mapp" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "mytoys.mobile" */;
 			buildPhases = (
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
@@ -159,9 +207,9 @@
 			);
 			dependencies = (
 			);
-			name = mapp;
-			productName = mapp;
-			productReference = 13B07F961A680F5B00A75B9A /* mapp.app */;
+			name = mytoys.mobile;
+			productName = mytoys.mobile;
+			productReference = 13B07F961A680F5B00A75B9A /* mytoys.mobile.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -181,7 +229,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "mapp" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "mytoys.mobile" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -194,8 +242,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* mapp */,
-				00E356ED1AD99517003FC87E /* mappTests */,
+				13B07F861A680F5B00A75B9A /* mytoys.mobile */,
+				00E356ED1AD99517003FC87E /* mytoys.mobileTests */,
 			);
 		};
 /* End PBXProject section */
@@ -214,6 +262,19 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				ECF1A216C19E436FA915BBAF /* mt_fav.png in Resources */,
+				C1A7D9C053684B019A8F3395 /* mtlogo.png in Resources */,
+				7F1C30726C044F1684742007 /* vplogo.png in Resources */,
+				625FBB1FE5094E77ABCA410A /* MuseoSansCyrl-100.woff in Resources */,
+				37125944E421471181479D99 /* MuseoSansCyrl-100.woff2 in Resources */,
+				876728EF6718459B90EAF49D /* MuseoSansCyrl-300.woff in Resources */,
+				8AFB778CFF7148FF926DFA4B /* MuseoSansCyrl-300.woff2 in Resources */,
+				BDD75E21CFF347D2B38CECED /* MuseoSansCyrl-500.woff in Resources */,
+				58630F79B5414E828DD52416 /* MuseoSansCyrl-500.woff2 in Resources */,
+				566E757CF1E44D9E8E9355B9 /* MuseoSansCyrl-700.woff in Resources */,
+				3208C156C01445948DBB6E74 /* MuseoSansCyrl-700.woff2 in Resources */,
+				D71DACA019F049E3B76AA084 /* MuseoSansCyrl-900.woff in Resources */,
+				531C46B011A645E187F5F064 /* MuseoSansCyrl-900.woff2 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* mappTests.m in Sources */,
+				00E356F31AD99517003FC87E /* mytoys.mobileTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +339,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* mapp */;
+			target = 13B07F861A680F5B00A75B9A /* mytoys.mobile */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -292,7 +353,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = mappTests/Info.plist;
+				INFOPLIST_FILE = mytoys.mobileTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,7 +367,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mapp.app/mapp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mytoys.mobile.app/mytoys.mobile";
 			};
 			name = Debug;
 		};
@@ -315,7 +376,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = mappTests/Info.plist;
+				INFOPLIST_FILE = mytoys.mobileTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -329,7 +390,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mapp.app/mapp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mytoys.mobile.app/mytoys.mobile";
 			};
 			name = Release;
 		};
@@ -340,7 +401,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = mapp/Info.plist;
+				INFOPLIST_FILE = mytoys.mobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -351,7 +412,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = mapp;
+				PRODUCT_NAME = mytoys.mobile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -364,7 +425,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = mapp/Info.plist;
+				INFOPLIST_FILE = mytoys.mobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -375,7 +436,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = mapp;
+				PRODUCT_NAME = mytoys.mobile;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -505,7 +566,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "mappTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "mytoys.mobileTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -514,7 +575,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "mapp" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "mytoys.mobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -523,7 +584,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "mapp" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "mytoys.mobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

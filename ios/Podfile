@@ -3,7 +3,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'mapp' do
+target 'mytoys.mobile' do
   config = use_native_modules!
 
   use_react_native!(
@@ -12,7 +12,7 @@ target 'mapp' do
     :hermes_enabled => false
   )
 
-  target 'mappTests' do
+  target 'mytoys.mobileTests' do
     inherit! :complete
     # Pods for testing
   end

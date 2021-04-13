@@ -1,4 +1,4 @@
-package com.mapp;
+package com.mytoys.mobile;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "mapp";
+    return "mytoys.mobile";
   }
 }
